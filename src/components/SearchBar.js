@@ -44,7 +44,7 @@ class SearchBar extends Component {
                         value={this.state.search}
                         onChange={this.handleInputChange}
                     />
-                    <ClearBtn onClick={() => this.setState({ search: "" })}>X</ClearBtn>
+                    <ClearBtn onClick={() => this.setState({ search: "" })}> X </ClearBtn>
                 </StyledFormGroup>
             </Form>
         )
